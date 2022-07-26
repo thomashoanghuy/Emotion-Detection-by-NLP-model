@@ -1,7 +1,7 @@
 # Emotion-Detection-by-NLP-model
 Emotion Detection by NLP model (RoBERTa)
 1 | P a g e
-1. Introduction
+Introduction
 With the advance of technology, available information online and the abillity to perform more and more banking tasks digitally whereever the customer is at, manag people no longer visit bank branches anymore. While the proliferation of digital banking has improved efficienct and convenience for the customer, it has also eliminated some of the face to face interaction opportunities banks previoulsy had with their customers. Custmers still have many occasions when it is necessary to talk to a bank officer and during those occasions, both banks and their customers wish to have a positive experience. 
 
 Chatbots comes in handy to redefine the banking experience in these case. Chatbots have the potential to reshape user expectations and desires when banking. With chatbot’s numorious benefit bring to the banks, it could also lower customer satisfaction or loyalty with its missing interpersonal communication skills. As it is, many incoming calls result not from an initial preference for live assistance, but out of frustration with the inadequacy of the automated version. This has lead to our problem statement, can emotion analysis detect unsatisfied customers in chat before they turn towards human assistance?
