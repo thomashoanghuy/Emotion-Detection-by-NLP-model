@@ -21,6 +21,7 @@ This is more efficient, since it makes it possible for the model to learn the co
 
 
 i. Pre-training
+
 Pre-training involves training the model on unlabelled data over different pre-training tasks.
 - Masked LM: Some percentage of the input tokens masked at random, and then those masked tokens are to be predicted.
 - Next Sentence Prediction: Downstream tasks such as Question Answering (QA) and Natural Language Inference (NLI) are based on understanding the relationship between two sentences, which is not directly captured by language modelling. A binarized next sentence prediction task is pretrained that can be trivially generated from any monolingual corpus.
