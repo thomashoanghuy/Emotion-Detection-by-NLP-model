@@ -35,12 +35,17 @@ The results of the above application proves the model works quite well in many d
 
 5.1 Text-only limitation
 The data sources are mainly in text-only based, which lacks of tones, face motion and other body languages. This will cause three potiential issues:
+
 • Syntactic: This means it’s possible that same words can represent different meanings as well as different emotions. For example, “Lie” can be “untruth” but also can be “lay down”. This brings us some troubles during the encoding process
+
 • Semantics: We are analysing the data without context, and the sentence input is one by one. It’s not linked to backwards and forwards.
+
 • Sarcastic: Masked meaning. People may use speak certain sentences but totally opposite meanings.
 
 5.2 Model-level limitation
 
 • BERT Model: The model we are using is not portable, which means it consumes lots of computing power.
+
 • Sentence Maximum Length: There is max. Length of sentence to input.
+
 • Complicated emotions: The current output is showing one output with multiple confidence levels.
